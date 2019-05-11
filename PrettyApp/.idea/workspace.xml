@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17eab661-d7e5-4527-baa7-b6e5b6c6abcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Cloud + Moon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Cloud + Moon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Cloud + Sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Cloud + Sun.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Cloud.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Fog.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Hail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Hail.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Moon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Moon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Rain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Snowflake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Snowflake.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Sun.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Wind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Icons/Wind.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/libs/biolib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/androidTest/java/com/bitmob/acquisitionsensormanager/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/bluetooth/BluetoothControler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/constants/Alarms.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/constants/BluetoothConstants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/constants/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/constants/IntentValues.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/BandDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/BitalinoDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/EnvDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/ExtGPSDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/GPSDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/VitalDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/converters/WeatherDataConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/alarms/ValuesAlarmEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/audio/AudioStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/band/BandStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/band/BandValuesEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/bitalino/BitalinoStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/bitalino/BitalinoValuesEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/environment/EnvironmentStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/environment/EnvironmentValueEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/externalgps/ExternalGpsStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/externalgps/ExternalGpsValuesEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/gps/GpsDistanceEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/gps/GpsStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/gps/GpsValuesEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/vital/VitalRRValuesEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/vital/VitalStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/vital/VitalValuesEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/weather/WeatherStateEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/eventbus/sensors/weather/WeatherValueEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/extensions/Date.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/extensions/String.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/interfaces/IAlarmChecker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/ConnectionState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/SensorType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/BandData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/BitalinoData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/EnvironmentData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/LocationData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/VitalData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/VitalRRData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/model/sensors/WeatherData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/AcquisitionService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/AudioService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/BandService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/BitalinoService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/EnvironmentService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/ExternalGPSService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/GPSService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/VitalService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/java/com/bitmob/acquisitionsensormanager/services/WeatherService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/acquisitionsensormanager/src/test/java/com/bitmob/acquisitionsensormanager/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/res/drawable/ic_check_white_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/res/drawable/ic_error_outline_white_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/res/drawable/ic_info_outline_white_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable/ic_check_white_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable/ic_error_outline_white_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable/ic_info_outline_white_48dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nav_item_icon_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nav_item_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nav_view_item_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_drawer_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/nav_drawer_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/drawable/edittext_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/final/compatbhw/CompatBHWv1/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/final/compatbhw/CompatBHWv1/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/final/compatbhw/CompatBHWv1/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/final/compatbhw/CompatBHWv1/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scenes/MainGame.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scenes/MainGame.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scenes/Menus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scenes/Menus.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scripts/DarkSkyAPI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scripts/DarkSkyAPI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scripts/OpenPlayerInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scripts/OpenPlayerInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/Assets/Scripts/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoFinal/compatbhw/CompatBHWv1/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoxx/compatbhw/CompatBHWv1/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoxx/compatbhw/CompatBHWv1/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICM/projectoxx/compatbhw/CompatBHWv1/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICM/projectoxx/compatbhw/CompatBHWv1/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PI/psyMaster/psymaster/AcquisitionRemote-master/AcquisitionRemote-master/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/psyremote/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PI/psyremote/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionBroker-master/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionBroker-master/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgrenderer/AbstractRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgrenderer/AbstractRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgrenderer/GraphRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgrenderer/GraphRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgrenderer/SignalRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgrenderer/SignalRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgviewer/ECGView.java" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgviewer/ECGView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgviewer/GLSurfaceView.java" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgviewer/GLSurfaceView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgviewer/SignalView.java" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/ecg/ecgviewer/SignalView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/gps/GpsViewer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/app/src/main/java/com/bitmob/vrremote/features/viewers/gps/GpsViewer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionRemote-master/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/java/com/bitmob/vrunit/features/viewers/gps/GpsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/java/com/bitmob/vrunit/features/viewers/gps/GpsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-hdpi/baseline_cloud_black_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-hdpi/baseline_cloud_black_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-mdpi/baseline_cloud_black_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-mdpi/baseline_cloud_black_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-xhdpi/baseline_cloud_black_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-xhdpi/baseline_cloud_black_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-xxhdpi/baseline_cloud_black_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-xxhdpi/baseline_cloud_black_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-xxxhdpi/baseline_cloud_black_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable-xxxhdpi/baseline_cloud_black_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable/baseline_cloud_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/drawable/baseline_cloud_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/values-b+pt/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/app/src/main/res/values-b+pt/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionUnit-master/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/preview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/routes/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/routes/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/images/fac.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/images/fac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/images/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/images/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/w3layouts-License.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/templateLogReg/w3layouts-License.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/PI/vitalsrecorder/AcquisitionWeb2-master/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/Lavender Gems.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/Lavender Gems.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/Purple Gems.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/Purple Gems.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/Turquoise Gems.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/Turquoise Gems.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/WhiteGems.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/WhiteGems.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/bjokib.com-morning-commute.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/bjokib.com-morning-commute.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/villageConquer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/villageConquer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/villageFarm.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Characters/villageFarm.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/challenges.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/challenges.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/settings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/settings.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/stats.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/stats.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/treasures.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/treasures.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/warriors.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Images/warriors.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Mapbox/Core/Plugins/Android/UniAndroidPermission/AndroidManifest-uniRP.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Mapbox/Core/Plugins/Android/UniAndroidPermission/AndroidManifest-uniRP.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/MapboxAR/Examples/Scenes/WorldScaleAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/MapboxAR/Examples/Scenes/WorldScaleAR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/Unity.Compat.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/Unity.Compat.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/Unity.Tasks.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/Unity.Tasks.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/dotNet45.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/dotNet45.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/PlayServicesResolver.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/PlayServicesResolver.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/PlayServicesResolver/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/PlayServicesResolver/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/iOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/iOS/Firebase.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/iOS/Firebase.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/x86_64.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/x86_64.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/x86_64/Firebase.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Plugins/x86_64/Firebase.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/ArMainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/ArMainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/ArMainGame.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/ArMainGame.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/MainGame.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/MainGame.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scenes/test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/ChangeToArScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/ChangeToArScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/OpenMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/OpenMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/SaveSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/SaveSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/SwipCameraRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/SwipCameraRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/TouchLogicV2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/TouchLogicV2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/ZoomPinch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/ZoomPinch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/goToChallenges.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/goToChallenges.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/goToSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/goToSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/onClickFight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/Assets/Scripts/onClickFight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/project/BigHeadWarriors/BigHeadWarriors/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/java/ua/grupo7/pi/myapplication/ConfigureSessionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/java/ua/grupo7/pi/myapplication/ConfigureSessionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/res/drawable/edditext_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/drawable/edditext_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/new_session_modal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/new_session_modal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/sensor_adapter_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/sensor_adapter_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/session_adapter_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/layout/session_adapter_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psymaster/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/psymaster/app/src/main/res/values/colors.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" />
+              <folding>
+                <element signature="e#343#368#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/nav_drawer_menu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+              <folding>
+                <element signature="e#485#510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_settings_black_24dp.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_drawer_header.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nav_view_item_background.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/grupo7/pi/prettycloud/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_drawer_header.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/nav_drawer_menu.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Desktop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Desktop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Desktop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Desktop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Desktop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Desktop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../AppData/Local/Android/Sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\app\src\main\res\drawable" />
+      <recent name="C:\Users\ASUS\Desktop\app\src\main\res\menu" />
+      <recent name="C:\Users\ASUS\Desktop\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17eab661-d7e5-4527-baa7-b6e5b6c6abcd" name="Default Changelist" comment="" />
+      <created>1556302811180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556302811180</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32955465" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50040483" side_tool="true" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49959514" visible="true" weight="0.3285968" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/grupo7/pi/prettycloud/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nav_view_item_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_drawer_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+          <folding>
+            <element signature="e#343#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_settings_black_24dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/nav_drawer_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="e#485#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+  </component>
+</project>

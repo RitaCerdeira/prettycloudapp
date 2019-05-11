@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PrettyCloud</string>
+    <string name="action_settings">Settings</string>
+    <string name="Pretty_Cloud_description">Plataforma para salões de beleza</string>
+    <string name="pretty_cloud_icon_content_description">Pretty Cloud Logo</string>
+    <string name="pretty_cloud_text">Pretty Cloud</string>
+    <string name="salon_title">Salons</string>
+    <string name="profile_title">Profile</string>
+    <string name="todo" />
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="user_name">Username</string>
+    <string name="user_password">Password</string>
+    <string name="short_username_error">Username is too short must be longer than 3 characters</string>
+    <string name="short_password_error">Password too short must be 8 or more characters</string>
+</resources>
