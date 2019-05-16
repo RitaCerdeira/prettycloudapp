@@ -1,22 +1,45 @@
 package ua.grupo7.pi.prettycloud.communication;
 
+import android.os.AsyncTask;
+import android.util.Log;
+
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.net.URL;
 
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 import ua.grupo7.pi.prettycloud.SharedValues;
-public class RestApi {
 
-    private URL apiUrl;
+public class RestApi extends AsyncTask<Void, Void, Void> {
+
+    private static String apiUrl;
     private int port;
     private SharedValues sharedValues;
+    public static Retrofit retrofit = null;
 
-    public RestApi(URL apiUrl,int port){
+    public RestApi(String apiUrl,int port){
         this.apiUrl = apiUrl;
-        this.port = port;
+
+    }
+
+    public static Retrofit getApiClient() {
+
+        if (retrofit == null) {
+
+
+            retrofit = new Retrofit.Builder()
+                    .baseUrl(apiUrl)
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
+
+        }
+        return retrofit;
     }
 
     private void buildUrl() {
@@ -43,6 +66,31 @@ public class RestApi {
                 .build();
     }
 
+    public void testConnectionToApi() throws IOException {
+
+    }
     public void parseRequest(JSONObject jsonObject){}
 
+
+    @Override
+    protected Void doInBackground(Void... voids) {
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder()
+                .url("https://jsonplaceholder.typicode.com/posts")
+                .build();
+
+        Response response = null;
+        try {
+            response = client.newCall(request).execute();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        /*
+        try {
+            Log.d("API_RESPONSE",response.body().string());
+        } catch (IOException e) {
+            e.printStackTrace();
+        };*/
+        return null;
+    }
 }

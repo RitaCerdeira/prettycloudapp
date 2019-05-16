@@ -29,4 +29,18 @@
     <string name="user_password">Password</string>
     <string name="short_username_error">Username is too short must be longer than 3 characters</string>
     <string name="short_password_error">Password too short must be 8 or more characters</string>
+    <string name="shared_preferences_key">PrettyCloudSalons</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="favourites">Favourites</string>
+    <string name="error">Error</string>
+    <string name="location">Location</string>
+    <string name="user_firstName">Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_prices">Prices</string>
+    <string name="title_reviews">Reviews</string>
+    <string name="salon_address">Adress</string>
+    <string name="salon_phoneNumber">Phone Number</string>
+    <string name="salon_schedule">Schedule</string>
 </resources>

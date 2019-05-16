@@ -6,4 +6,5 @@
     <color name="themeColor">#A01717</color>
     <color name="menuColor">#BEBABA</color>
     <color name="menuTextColor">#000000</color>
+    <color name="White">#FFFFFF</color>
 </resources>
