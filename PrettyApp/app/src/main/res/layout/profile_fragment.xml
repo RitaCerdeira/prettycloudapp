@@ -45,20 +45,32 @@
             android:textSize="@dimen/alerter_text_medium"/>
 
         <TextView
-            android:id="@+id/user_location_profile_textView"
+            android:id="@+id/user_email_profile_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/location"
+            android:text="@string/email"
             android:layout_marginTop="@dimen/big_margin"
             android:textColor="@color/menuTextColor"
             app:layout_constraintTop_toBottomOf="@id/user_lastName_profile_textView"
             app:layout_constraintStart_toStartOf="@id/user_lastName_profile_textView"
             android:textSize="@dimen/alerter_text_medium"/>
 
+        <TextView
+            android:id="@+id/user_phone_number_profile_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_margin"
+            android:text="@string/salon_phoneNumber"
+            android:textColor="@color/menuTextColor"
+            android:layout_marginStart="@dimen/big_margin"
+            app:layout_constraintTop_toBottomOf="@id/user_email_profile_textView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="@dimen/alerter_text_medium"/>
+
         <EditText
             android:id="@+id/user_firstName_profile_editText"
             android:layout_width="0sp"
-            android:layout_height="0sp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/big_margin"
             android:layout_marginEnd="@dimen/big_margin"
             app:layout_constraintStart_toEndOf="@id/user_firstName_profile_textView"
@@ -70,7 +82,7 @@
         <EditText
             android:id="@+id/user_lastName_profile_editText"
             android:layout_width="0sp"
-            android:layout_height="0sp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/big_margin"
             android:layout_marginEnd="@dimen/big_margin"
             app:layout_constraintStart_toEndOf="@id/user_lastName_profile_textView"
@@ -80,14 +92,26 @@
             />
 
         <EditText
-            android:id="@+id/user_location_profile_editText"
+            android:id="@+id/user_email_profile_editText"
             android:layout_width="0sp"
-            android:layout_height="0sp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/big_margin"
             android:layout_marginEnd="@dimen/big_margin"
-            app:layout_constraintStart_toEndOf="@id/user_location_profile_textView"
-            app:layout_constraintTop_toTopOf="@id/user_location_profile_textView"
-            app:layout_constraintBottom_toBottomOf="@id/user_location_profile_textView"
+            app:layout_constraintStart_toEndOf="@id/user_email_profile_textView"
+            app:layout_constraintTop_toTopOf="@id/user_email_profile_textView"
+            app:layout_constraintBottom_toBottomOf="@id/user_email_profile_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/user_phone_number_profile_editText"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/big_margin"
+            android:layout_marginEnd="@dimen/big_margin"
+            app:layout_constraintStart_toEndOf="@id/user_phone_number_profile_textView"
+            app:layout_constraintTop_toTopOf="@id/user_phone_number_profile_textView"
+            app:layout_constraintBottom_toBottomOf="@id/user_phone_number_profile_textView"
             app:layout_constraintEnd_toEndOf="parent"
             />
 

@@ -8,4 +8,22 @@ public class Review {
 
     private String comment;
 
+
+    public Review(int idSalon, Rating rating, String comment) {
+      this.idSalon = idSalon;
+      this.rating = rating;
+      this.comment = comment;
+    }
+
+    public int getIdSalon() {
+      return idSalon;
+    }
+
+    public Rating getRating() {
+      return rating;
+    }
+
+    public String getComment() {
+      return comment;
+    }
 }

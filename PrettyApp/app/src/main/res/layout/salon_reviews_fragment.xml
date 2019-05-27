@@ -3,11 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.SalonReviewsFragment">
 
-    <TextView
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/salon_review_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/RatingBar"
+        />
+
+    <EditText
+        android:id="@+id/salon_reviews_comment_EditText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="100dp"
+        android:hint="@string/add_comment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/salon_review_rating"/>
+
+    <Button
+        android:id="@+id/salon_reviews_add_comment_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="save"
+        android:layout_margin="@dimen/big_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/salon_reviews_comment_EditText"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/salon_reviews_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="0sp"
+      app:layout_constraintTop_toBottomOf="@id/salon_reviews_add_comment_button"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+  </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

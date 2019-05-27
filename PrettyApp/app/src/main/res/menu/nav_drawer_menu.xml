@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_salons"
-            android:icon="@drawable/ic_salon"
+            android:icon="@drawable/ic_black_salon"
             android:title="@string/salon_title" />
         <item
             android:id="@+id/nav_settings"
@@ -14,13 +13,13 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_profile"
             android:title="@string/profile_title" />
+        <item android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_favourite"
+            android:title="@string/favourites"/>
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_logout"
             android:title="@string/logout"/>
-        <item android:id="@+id/nav_favourites"
-            android:icon="@drawable/ic_favourite"
-            android:title="@string/favourites"/>
     </group>
 
 

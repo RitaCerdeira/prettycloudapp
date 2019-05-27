@@ -21,15 +21,14 @@ public class RestApi extends AsyncTask<Void, Void, Void> {
     private static String apiUrl;
     private int port;
     private SharedValues sharedValues;
-    public static Retrofit retrofit = null;
+    public Retrofit retrofit = null;
 
     public RestApi(String apiUrl,int port){
         this.apiUrl = apiUrl;
-
     }
 
-    public static Retrofit getApiClient() {
-
+    public PrettyCloudWebService getWebservice() {
+        PrettyCloudWebService webService;
         if (retrofit == null) {
 
 
@@ -39,7 +38,9 @@ public class RestApi extends AsyncTask<Void, Void, Void> {
                     .build();
 
         }
-        return retrofit;
+        webService = retrofit.create(PrettyCloudWebService.class);
+        return webService;
+
     }
 
     private void buildUrl() {
@@ -65,11 +66,6 @@ public class RestApi extends AsyncTask<Void, Void, Void> {
                 .url("https://api.github.com/users/vogella")
                 .build();
     }
-
-    public void testConnectionToApi() throws IOException {
-
-    }
-    public void parseRequest(JSONObject jsonObject){}
 
 
     @Override

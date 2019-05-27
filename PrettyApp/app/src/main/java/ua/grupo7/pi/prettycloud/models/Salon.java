@@ -1,11 +1,9 @@
 package ua.grupo7.pi.prettycloud.models;
 
-import com.google.gson.annotations.SerializedName;
 
 public class Salon {
 
-    @SerializedName("salon")
-    private String salon;
+    private Long id;
 
     private String name;
 
@@ -13,17 +11,26 @@ public class Salon {
 
     private String phoneNumber;
 
+  public Salon(String name, String address, String phoneNumber, String schedule, int priceRange) {
+    this.name = name;
+    this.address = address;
+    this.phoneNumber = phoneNumber;
+    this.schedule = schedule;
+    this.priceRange = priceRange;
+  }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     private String schedule;
 
     private int priceRange;
 
-    public String getSalon() {
-        return salon;
-    }
-
-    public void setSalon(String salon) {
-        this.salon = salon;
-    }
 
     public String getName() {
         return name;
