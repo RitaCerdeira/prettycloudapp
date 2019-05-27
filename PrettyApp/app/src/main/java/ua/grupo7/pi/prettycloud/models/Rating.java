@@ -6,6 +6,17 @@ public class Rating {
 
     private String description;
 
+    private float value;
+
+    public Rating(int id, String description, float value) {
+        this.id = id;
+        this.description = description;
+        this.value = value;
+    }
+
+    public Rating() {
+    }
+
     public int getId() {
         return id;
     }
@@ -21,4 +32,6 @@ public class Rating {
     public void setDescription(String description) {
         this.description = description;
     }
+
+
 }

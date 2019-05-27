@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
 
 }
 
@@ -39,12 +43,22 @@ dependencies {
     //KOTLIN
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
+    //PICASSO
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
     //test
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //mockito
+    testImplementation group: 'io.rest-assured', name: 'spring-mock-mvc', version: '3.0.0'
+    androidTestImplementation 'org.mockito:mockito-android:2.7.22'
+    androidTestImplementation 'com.squareup.okhttp3:mockwebserver:3.14.2'
+    testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.3.2"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.3.2"

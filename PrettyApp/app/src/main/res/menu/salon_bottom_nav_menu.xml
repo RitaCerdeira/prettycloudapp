@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bottom_nav_contacts"
+            android:icon="@drawable/ic_contacts"
+            android:title="@string/title_contacts" />
 
-    <item
-        android:id="@+id/bottom_nav_contacts"
-        android:icon="@drawable/ic_contacts"
-        android:title="@string/title_contacts" />
+        <item
+            android:id="@+id/bottom_nav_prices"
+            android:icon="@drawable/ic_prices"
+            android:title="@string/title_prices" />
 
-    <item
-        android:id="@+id/bottom_nav_prices"
-        android:icon="@drawable/ic_prices"
-        android:title="@string/title_prices" />
-
-    <item
-        android:id="@+id/bottom_nav_reviews"
-        android:icon="@drawable/ic_rating"
-        android:title="@string/title_reviews" />
-
+        <item
+            android:id="@+id/bottom_nav_reviews"
+            android:icon="@drawable/ic_rating"
+            android:title="@string/title_reviews" />
+    </group>
 </menu>

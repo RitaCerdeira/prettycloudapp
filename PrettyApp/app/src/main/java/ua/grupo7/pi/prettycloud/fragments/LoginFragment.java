@@ -77,6 +77,7 @@ public class LoginFragment extends Fragment {
     private void validateLogin(){
         validateUsername();
         validatePassword();
+        //mViewModel.authentication(usernameText.toString(),passwordText.toString());
         //if (api.login(usernameText,passwordText));
         sharedPreferences.edit().putBoolean(sharedValues.isLoggedIn,true).apply();
     }
