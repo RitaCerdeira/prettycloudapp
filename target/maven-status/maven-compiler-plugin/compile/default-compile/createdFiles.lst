@@ -1,8 +1,0 @@
-com/projetotqs/prettycloud/ClientRepository.class
-com/projetotqs/prettycloud/ClientController.class
-com/projetotqs/prettycloud/PrettyCloudApplication.class
-com/projetotqs/prettycloud/ClientNotFoundException.class
-com/projetotqs/prettycloud/ClientNotFoundAdvice.class
-com/projetotqs/prettycloud/LoadDatabase.class
-com/projetotqs/prettycloud/Manager.class
-com/projetotqs/prettycloud/Client.class
