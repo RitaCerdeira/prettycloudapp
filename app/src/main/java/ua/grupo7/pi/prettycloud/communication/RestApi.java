@@ -23,7 +23,7 @@ public class RestApi extends AsyncTask<Void, Void, Void> {
     private SharedValues sharedValues;
     public Retrofit retrofit = null;
 
-    public RestApi(String apiUrl,int port){
+    public RestApi(String apiUrl){
         this.apiUrl = apiUrl;
     }
 

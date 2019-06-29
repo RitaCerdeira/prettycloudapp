@@ -2,5 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICM/final/compatbhw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICM/projectoFinal/compatbhw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICM/projectoxx/compatbhw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PDS/pds_2019_g65" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PI/pi-g7-vitalservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PI/psyMaster" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PI/psyMaster/psymaster" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PI/psyremote" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PI/vitalsrecorder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/BigHeadWarriors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/psymaster" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sioProjeto/sio-projecto_80124" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sioProjeto/sio-projecto_80124/mysite" vcs="Git" />
   </component>
 </project>

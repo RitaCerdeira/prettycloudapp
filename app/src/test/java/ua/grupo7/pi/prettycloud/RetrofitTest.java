@@ -1,59 +1,98 @@
 package ua.grupo7.pi.prettycloud;
 
 
-import org.junit.Before;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
+import android.util.Log;
 
-import java.util.Arrays;
+import org.junit.Before;
+import org.junit.Test;
+
+
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
-import retrofit2.Retrofit;
+import retrofit2.Response;
 import ua.grupo7.pi.prettycloud.communication.PrettyCloudWebService;
+import ua.grupo7.pi.prettycloud.communication.RestApi;
+import ua.grupo7.pi.prettycloud.config.Config;
 import ua.grupo7.pi.prettycloud.models.Client;
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.Matchers.hasSize;
-import static org.mockito.BDDMockito.given;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import ua.grupo7.pi.prettycloud.models.Manager;
+import ua.grupo7.pi.prettycloud.models.Review;
+import ua.grupo7.pi.prettycloud.models.Salon;
+
+import static junit.framework.TestCase.assertTrue;
 
 
 public class RetrofitTest {
 
-    @Autowired
-    private MockMvc mvc;
-
-    private Retrofit retrofit;
+    private RestApi restApi = new RestApi(Config.API_URL);
 
     private PrettyCloudWebService webService;
 
     @Before
     public void init(){
-        webService = retrofit.create(PrettyCloudWebService.class);
+        webService = restApi.getWebservice();
     }
+
     @Test
-    public void givenClients_whenGetClients_thenReturnJsonArray() throws Exception {
+    public void checkGetSalons() throws Exception {
 
-        Client alex = new Client();
-        alex.setFirstName("Alex");
-        alex.setLastName("Simon");
-        alex.setPhoneNumber("123456789");
-        alex.setEmail("alex@mail.com");
+        Call<ArrayList<Salon>> call = webService.getSalons();
+        try {
+            Response<ArrayList<Salon>> response = call.execute();
+            ArrayList<Salon> salons = response.body();
 
-        List<Client> allClients = Arrays.asList(alex);
+            assertTrue(response.isSuccessful() && salons.size()>0);
 
-        given(webService.getClients()).willReturn((Call<List<Client>>) allClients);
-
-        mvc.perform(get("/api/clients")
-                .contentType(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$", hasSize(1)))
-                .andExpect(jsonPath("$[0].firstName", is(alex.getFirstName())));
-
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
+    @Test
+    public void checkGetClients() throws Exception {
+
+        Call<List<Client>> call = webService.getClients();
+        try {
+            Response<List<Client>> response = call.execute();
+            List<Client> clients = response.body();
+            Log.d("Clients: ",clients.toString());
+            assertTrue(response.isSuccessful() && clients.size()>0);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @Test
+    public void checkGetManagers() throws Exception {
+
+        Call<ArrayList<Manager>> call = webService.getManagers();
+        try {
+            Response<ArrayList<Manager>> response = call.execute();
+            ArrayList<Manager> managers = response.body();
+            assertTrue(response.isSuccessful() && managers.size()>0);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void checkGetReviews() throws Exception {
+
+        Call<ArrayList<Review>> call = webService.getReviews();
+        try {
+            Response<ArrayList<Review>> response = call.execute();
+            List<Review> reviews = response.body();
+
+            assertTrue(response.isSuccessful() && reviews.size()>0);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

@@ -14,13 +14,13 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import ua.grupo7.pi.prettycloud.communication.PrettyCloudWebService;
 import ua.grupo7.pi.prettycloud.communication.RestApi;
-import ua.grupo7.pi.prettycloud.config.BuildConfig;
+import ua.grupo7.pi.prettycloud.config.Config;
 import ua.grupo7.pi.prettycloud.models.Salon;
 
 public class SalonContactsViewModel extends ViewModel {
 
     private LiveData<Salon> salon;
-    private RestApi restApi = new RestApi(BuildConfig.API_URL,8080);
+    private RestApi restApi = new RestApi(Config.API_URL);
     private PrettyCloudWebService webService;
     // PrettyCloudWebService webService = restApi.getWebservice();
     private Executor executor = Executors.newSingleThreadExecutor();;

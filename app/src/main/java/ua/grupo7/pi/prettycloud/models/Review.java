@@ -1,29 +1,72 @@
 package ua.grupo7.pi.prettycloud.models;
 
-public class Review {
+import com.google.gson.annotations.SerializedName;
 
-    private int idSalon;
+public class    Review {
 
-    private Rating rating;
+    @SerializedName("id")
+    private Long id;
 
+    @SerializedName("client")
+    private Client client;
+
+    @SerializedName("salon")
+    private Salon salon;
+
+    @SerializedName("rating")
+    private double rating;
+
+    @SerializedName("comment")
     private String comment;
 
-
-    public Review(int idSalon, Rating rating, String comment) {
-      this.idSalon = idSalon;
-      this.rating = rating;
-      this.comment = comment;
+    public Long getId() {
+        return id;
     }
 
-    public int getIdSalon() {
-      return idSalon;
+    public Review() {
     }
 
-    public Rating getRating() {
-      return rating;
+    public Review(Long id, Client client, Salon salon, double rating, String comment) {
+        this.id = id;
+        this.client = client;
+        this.salon = salon;
+        this.rating = rating;
+        this.comment = comment;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public Salon getSalon() {
+        return salon;
+    }
+
+    public void setSalon(Salon salon) {
+        this.salon = salon;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 
     public String getComment() {
-      return comment;
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

@@ -39,6 +39,8 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ReviewView
     public void onBindViewHolder(@NonNull ReviewViewHolder reviewViewHolder, int position) {
       Review review = reviewList.get(position);
       reviewViewHolder.reviewCommentTextView.setText(review.getComment());
+      reviewViewHolder.ratingCommentTextView.setText("Rating: " + String.valueOf(review.getRating()));
+      reviewViewHolder.clientCommentTextView.setText("Client: " + review.getClient().getFirstName());
     }
 
     @Override
@@ -49,10 +51,14 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ReviewView
     public static class ReviewViewHolder extends RecyclerView.ViewHolder {
 
       public TextView reviewCommentTextView;
+      public TextView ratingCommentTextView;
+      public TextView clientCommentTextView;
 
       public ReviewViewHolder(@NonNull View itemView) {
         super(itemView);
-        reviewCommentTextView = itemView.findViewById(R.id.salon_review_comment);
+        reviewCommentTextView = itemView.findViewById(R.id.salon_review_comment_text);
+        ratingCommentTextView = itemView.findViewById(R.id.salon_review_comment_rating);
+        clientCommentTextView = itemView.findViewById(R.id.salon_review_comment_client_name);
       }
     }
 

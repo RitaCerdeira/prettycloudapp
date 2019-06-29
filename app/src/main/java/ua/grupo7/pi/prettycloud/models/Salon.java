@@ -1,23 +1,59 @@
 package ua.grupo7.pi.prettycloud.models;
 
 
+import com.google.gson.annotations.SerializedName;
+
 public class Salon {
 
+    @SerializedName("id")
     private Long id;
 
+    @SerializedName("name")
     private String name;
 
+    @SerializedName("address")
     private String address;
 
+    @SerializedName("phoneNumber")
     private String phoneNumber;
 
-  public Salon(String name, String address, String phoneNumber, String schedule, int priceRange) {
-    this.name = name;
-    this.address = address;
-    this.phoneNumber = phoneNumber;
-    this.schedule = schedule;
-    this.priceRange = priceRange;
-  }
+    @SerializedName("manager")
+    private Manager manager;
+
+    @SerializedName("image")
+    private String image;
+
+    @SerializedName("description")
+    private String description;
+
+    public Salon() {
+    }
+
+    public Salon(Long id, String name, String address, String phoneNumber, Manager manager, String image, String description) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.manager = manager;
+        this.image = image;
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public Long getId() {
         return id;
@@ -26,11 +62,6 @@ public class Salon {
     public void setId(Long id) {
         this.id = id;
     }
-
-    private String schedule;
-
-    private int priceRange;
-
 
     public String getName() {
         return name;
@@ -56,19 +87,22 @@ public class Salon {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getSchedule() {
-        return schedule;
+    public Manager getManager() {
+        return manager;
     }
 
-    public void setSchedule(String schedule) {
-        this.schedule = schedule;
+    public void setManager(Manager manager) {
+        this.manager = manager;
     }
 
-    public int getPriceRange() {
-        return priceRange;
-    }
-
-    public void setPriceRange(int priceRange) {
-        this.priceRange = priceRange;
+    @Override
+    public String toString() {
+        return "Salon{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", manager=" + manager +
+                '}';
     }
 }

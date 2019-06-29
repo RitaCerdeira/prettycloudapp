@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout = findViewById(R.id.drawer_layout);
         sharedValues = new SharedValues();
         sharedPreferences = getSharedPreferences(getString(R.string.shared_preferences_key), Context.MODE_PRIVATE);
+        //sharedPreferences.edit().putString("USER","jose@hotmail.com").commit();
+        //sharedPreferences.edit().putString("PASSWORD","jose_pedro").commit();
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout,toolbar, R.string.openDrawer, R.string.closeDrawer);
@@ -48,8 +50,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = findViewById(R.id.nav_view);
         drawerToggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        restApi = new RestApi("www.hotmail.com",20);
-        restApi.execute();
     }
 
     @Override

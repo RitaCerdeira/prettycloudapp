@@ -1,26 +1,49 @@
 package ua.grupo7.pi.prettycloud.models;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Service {
 
+    @SerializedName("id")
     private int id;
-    private String name;
-    private Double price;
 
-    public Service(int id, String name, Double price) {
+    @SerializedName("type")
+    private String type;
+
+    @SerializedName("image")
+    private String image;
+
+    public Service() {
+    }
+
+    public Service(int id, String type,String image) {
         this.id = id;
-        this.name = name;
-        this.price = price;
+        this.type = type;
+        this.image = image;
     }
 
     public int getId() {
         return id;
     }
 
-    public String getName() {
-        return name;
+    public String getType() {
+        return type;
     }
 
-    public Double getPrice() {
-        return price;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }
+

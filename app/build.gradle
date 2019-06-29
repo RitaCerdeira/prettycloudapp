@@ -9,8 +9,17 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunnerArguments clearPackageData: 'true'
     }
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+        unitTests.returnDefaultValues = true
+
+    }
+    useLibrary 'android.test.runner'
+    useLibrary 'android.test.base'
+    useLibrary 'android.test.mock'
     buildTypes {
         release {
             minifyEnabled false
@@ -53,17 +62,33 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    //mockito
-    testImplementation group: 'io.rest-assured', name: 'spring-mock-mvc', version: '3.0.0'
-    androidTestImplementation 'org.mockito:mockito-android:2.7.22'
-    androidTestImplementation 'com.squareup.okhttp3:mockwebserver:3.14.2'
-    testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+    // Core library
+    androidTestImplementation 'androidx.test:core:1.0.0'
 
+    // AndroidJUnitRunner and JUnit Rules
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test:rules:1.1.0'
+    androidTestUtil 'androidx.test:orchestrator:1.1.0'
 
-    testImplementation "org.junit.jupiter:junit-jupiter-api:5.3.2"
-    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.3.2"
-    testImplementation "org.junit.jupiter:junit-jupiter-params:5.3.2"
-    testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.3.2"
-    implementation 'androidx.fragment:fragment:1.0.0'
+    // Assertions
+    androidTestImplementation 'androidx.test.ext:junit:1.0.0'
+    androidTestImplementation 'androidx.test.ext:truth:1.0.0'
+    androidTestImplementation 'com.google.truth:truth:0.42'
+
+    // Espresso dependencies
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-accessibility:3.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-web:3.1.0'
+    androidTestImplementation 'androidx.test.espresso.idling:idling-concurrent:3.1.0'
+
+    // The following Espresso dependency can be either "implementation"
+    // or "androidTestImplementation", depending on whether you want the
+    // dependency to appear on your APK's compile classpath or the test APK
+    // classpath.
+    androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:3.1.0'
+
+    debugImplementation 'androidx.fragment:fragment-testing:1.1.0-alpha07'
 
 }

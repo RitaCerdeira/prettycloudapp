@@ -16,41 +16,57 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import ua.grupo7.pi.prettycloud.communication.PrettyCloudWebService;
 import ua.grupo7.pi.prettycloud.communication.RestApi;
-import ua.grupo7.pi.prettycloud.config.BuildConfig;
+import ua.grupo7.pi.prettycloud.config.Config;
 import ua.grupo7.pi.prettycloud.models.Client;
 import ua.grupo7.pi.prettycloud.models.Login;
-import ua.grupo7.pi.prettycloud.models.Review;
-import ua.grupo7.pi.prettycloud.models.Salon;
 
 public class LoginViewModel extends ViewModel {
 
-    private RestApi restApi = new RestApi(BuildConfig.API_URL,8080);
-    private PrettyCloudWebService webService;
-    //private PrettyCloudWebService webService = restApi.getWebservice();
-    private Executor executor = Executors.newSingleThreadExecutor();
-    private  boolean login = false;
+    private MutableLiveData<List<Client>> clientList;
+    private RestApi restApi = new RestApi(Config.API_URL);
+    private PrettyCloudWebService webService = restApi.getWebservice();
+    private Long clientId=0L;
 
-    public  boolean authentication(String username,String password) {
-        webService.authenticate(username, password).enqueue(new Callback<Login>() {
+    public LiveData<List<Client>> getClients() {
+        if (clientList == null){
+            clientList = new MutableLiveData<>();
+            loadClients();
+        }
+        return clientList;
+    }
+
+    public void loadClients() {
+        Log.d("Loading Clients: ","Loadding clients");
+        webService.getClients().enqueue(new Callback<List<Client>>() {
             @Override
-            public void onResponse(Call<Login> call, Response<Login> response) {
-                Log.d("Sucess:","Logged in");
-                executor.execute(() -> {
-                        login = true;
-                    }
-                );
+            public void onResponse(Call<List<Client>> call, Response<List<Client>> response) {
+                clientList.setValue(response.body());
+                Log.d("Nice",response.body().toString());
             }
+
             @Override
-            public void onFailure(Call<Login> call, Throwable t) {
-                Log.d("LoginError:",t.getMessage());
+            public void onFailure(Call<List<Client>> call, Throwable t) {
+                Log.d("Faillllll",t.getMessage());
             }
         });
+    }
+
+    public boolean authenticate(String username,String password){
+        for (Client client:getClients().getValue()){
+            if(client.getEmail().equals(username) && password.equals(client.getPassword())){
+                clientId = client.getId();
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Login getTestLogin(){
+        Login login = new Login("rodrigo@gmail.com","Mourasd2");
         return login;
     }
 
-
-    public Login getTestLogin(){
-        Login login = new Login("rodrigo@gmail.com","Mouraasd2");
-        return login;
+    public Long getClientId() {
+        return clientId;
     }
 }

@@ -58,9 +58,7 @@ public class SalonAdapter extends RecyclerView.Adapter<SalonAdapter.SalonViewHol
     @Override
     public void onBindViewHolder(@NonNull SalonViewHolder salonViewHolder, int position) {
       Salon currentSalon = salonsList.get(position);
-      String urlString = "https://i.imgur.com/DvpvklR.png"; //currentSalon.getImageUrl()
-      //salonViewHolder.salonImage.setImageResource(R.drawable.ic_black_salon);
-      Picasso.get().load(urlString).into(salonViewHolder.salonImage);
+      Picasso.get().load(currentSalon.getImage()).into(salonViewHolder.salonImage);
       salonViewHolder.salonTextView.setText(currentSalon.getName());
       salonViewHolder.bind(currentSalon,listener);
     }
@@ -86,7 +84,7 @@ public class SalonAdapter extends RecyclerView.Adapter<SalonAdapter.SalonViewHol
           itemView.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
               listener.onItemClick(salon);
-              Log.d("Salon name:",salon.getName());
+              Log.d("Salon name: ",salon.getName());
             }
           });
         }

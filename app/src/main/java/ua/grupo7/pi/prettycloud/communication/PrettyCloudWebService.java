@@ -1,6 +1,8 @@
 package ua.grupo7.pi.prettycloud.communication;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 
 import retrofit2.Call;
@@ -11,21 +13,23 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 import ua.grupo7.pi.prettycloud.models.Login;
+import ua.grupo7.pi.prettycloud.models.Manager;
 import ua.grupo7.pi.prettycloud.models.Review;
 import ua.grupo7.pi.prettycloud.models.Salon;
 import ua.grupo7.pi.prettycloud.models.Client;
+import ua.grupo7.pi.prettycloud.models.SalonService;
 import ua.grupo7.pi.prettycloud.models.Service;
 
 public interface PrettyCloudWebService {
 
     @GET("salons")
-    Call<List<Salon>> getSalons();
+    Call<ArrayList<Salon>> getSalons();
 
     @GET("login/{email}/{password}")
     Call<Login> authenticate(@Path("email") String email, @Path("password") String password);
 
-    @GET("salon")
-    Call<Salon> getSalon(@Query("id") Long salon_);
+    @GET("salon/{id}")
+    Call<Salon> getSalon(@Path("id") Long salonID);
 
     @GET("clients")
     Call<List<Client>> getClients();
@@ -40,7 +44,7 @@ public interface PrettyCloudWebService {
     Call<Client> createUser(@Body Client client);
 
     @GET("reviews")
-    Call<List<Review>> getReviews();
+    Call<ArrayList<Review>> getReviews();
 
     @GET("services")
     Call<List<Service>> getServices();
@@ -49,9 +53,14 @@ public interface PrettyCloudWebService {
     Call<Service> getServiceByName(@Path("name") String name);
 
     @GET("salon/{id}/services")
-    Call<List<Service>> getSalonServices(@Path("id") Long salonID);
+    Call<ArrayList<SalonService>> getSalonServices(@Path("id") Long salonID);
 
     @GET("salon/{id}/reviews")
-    Call<List<Review>> getSalonReviews(@Path("id") Long salonID);
+    Call<ArrayList<Review>> getSalonReviews(@Path("id") Long salonID);
 
+    @POST("salon/{id}/reviews")
+    Call<Review> createReview(@Body Review review);
+
+    @GET("managers")
+    Call<ArrayList<Manager>> getManagers();
 }
